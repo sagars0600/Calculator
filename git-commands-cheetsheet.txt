@@ -1,0 +1,24 @@
+git init - command to initialise a new git repo inside a non git folder
+git clone - create or download a already existing git repo by using url
+git add - move the changes from working directory to staging already
+git commit  - commit the changes in staging area to git repo
+git status - check the status of working directory for any modified, deleted or added files
+git log - to see the commit history
+git diff - to see the contents of the changed files
+git branch <branch-name> - to create a new branch
+git branch -  to view the list of branches in local repo
+git branch -r - to see the list of remote branches
+git branch  -d <branch-name> - to delete a already merged branch
+git branch -D <branch-name> - to forcefully delete a unmerged branch
+git checkout -b <branch-name> - to create a new branch and checkout to the newly created branch
+git checkout --track -b <branch-name> origin/<branch-name> - to create a new branch tracking the remote origin branch and checkout into newly created branch
+git reset HEAD * - unstage all the staged changes
+git restore --staged * - unstage all the staged changes
+git checkout -- <file> - to revert back any changes to the file 
+git push - push your changes from local to remote repo
+git pull - update you local current branch with the latest changes in the reemote tracking branch
+git push origin --delete branch-name - to delete a remote branch
+git merge <source-branch> - to merge changes from source branch to current branch with merge commit
+git rebase <source-branch> - to rebase current branch changes on top of source branch commits(creates a new commit id for the feature branch commits)
+git tag -a tagname -m <msg> - to create a annotated tag pointing to current branch head
+.gitignore - file containing the  list of all files and folders that needs to be ignored by git
